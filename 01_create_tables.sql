@@ -19,7 +19,7 @@ CREATE TABLE products (
     category VARCHAR(50)
 );
 
--- Products orders
+-- orders table
 CREATE TABLE orders (
     order_id INT PRIMARY KEY,
     customer_id INT,
@@ -28,7 +28,7 @@ CREATE TABLE orders (
     FOREIGN KEY (customer_id) REFERENCES customers(customer_id)
 );
 
--- Products order_items
+-- order_items table
 CREATE TABLE order_items (
     order_item_id INT PRIMARY KEY,
     order_id INT,
@@ -39,7 +39,7 @@ CREATE TABLE order_items (
     FOREIGN KEY (product_id) REFERENCES products(product_id)
 );
 
--- Products payments
+-- payments table
 CREATE TABLE payments (
     payment_id INT PRIMARY KEY,
     order_id INT,
