@@ -99,7 +99,7 @@ WHERE rnk = 1;
 ```
 
 Project Structure
-
+```
 ecommerce-sql-analysis/
 │
 ├── 01_create_tables.sql
@@ -108,6 +108,7 @@ ecommerce-sql-analysis/
 ├── 04_insights.md
 ├── ER_Diagram.png
 └── README.md
+```
 
 Key Learnings
 
