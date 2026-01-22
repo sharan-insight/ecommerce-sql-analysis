@@ -39,9 +39,9 @@ An ER Diagram is included in the repository to visually represent relationships 
 
 Tools Used:
 
--Database: MySQL
--Query Editor: MySQL Workbench / VS Code
--Version Control: Git & GitHub
+- Database: MySQL
+- Query Editor: MySQL Workbench / VS Code
+- Version Control: Git & GitHub
 
 Key Analyses Performed
 
@@ -96,6 +96,7 @@ FROM (
     GROUP BY p.category, p.product_name
 )
 WHERE rnk = 1;
+```
 
 Project Structure
 
@@ -114,8 +115,6 @@ Key Learnings
 - Applied SQL joins, subqueries, aggregations, and window functions
 - Converted raw data into meaningful business insights
 - Gained hands-on experience with real-world analytical queries
-
----
 
 Conclusion
 
